@@ -8,11 +8,12 @@ DOWNLOAD_URL = ""
 CURRENT_DIRECTORY = Path(__file__).parent
 long_description = (CURRENT_DIRECTORY / "README.md").read_text()
 KEYWORDS = ['matplotlib', 'toolbar', 'tkinter', 'qt']
+INSTALL_REQUIRES = ["matplotlib>=3.5"]
 
 setup(
   name = 'custom_tool_button',
   packages = ['custom_tool_button'],
-  version = '0.2',
+  version = '0.2.1',
   license='MIT',
   description=long_description,
   long_description=long_description,
@@ -21,6 +22,7 @@ setup(
   author_email = AUTHOR_EMAIL,
   url = URL,
   download_url = DOWNLOAD_URL,
+  install_requires=INSTALL_REQUIRES,
   keywords = KEYWORDS,
   classifiers=[
     'Intended Audience :: Developers',
