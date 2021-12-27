@@ -13,7 +13,7 @@ import matplotlib.pyplot as plt
 # ----- Your code ---- #
 ```
 
-![Forward Backward icon](https://github.com/jmishra01/Custom-button-in-Matplotlib-toolbar/tree/main/example/forward_backward_icon.png?raw=true)
+![Forward Backward icon](https://raw.githubusercontent.com/jmishra01/Custom-button-in-Matplotlib-toolbar/main/example/forward_backward_icon.png?raw=true)
 
 
 ```python
@@ -39,4 +39,4 @@ import matplotlib.pyplot as plt
 # ----- Your code ---- #
 ```
 
-![Custom Python icon](https://github.com/jmishra01/Custom-button-in-Matplotlib-toolbar/tree/main/example/custom_python_icon.png?raw=true)
+![Custom Python icon](https://raw.githubusercontent.com/jmishra01/Custom-button-in-Matplotlib-toolbar/main/example/custom_python_icon.png)
