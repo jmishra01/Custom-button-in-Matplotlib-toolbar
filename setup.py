@@ -12,7 +12,7 @@ KEYWORDS = ['matplotlib', 'toolbar', 'tkinter', 'qt']
 setup(
   name = 'custom_tool_button',
   packages = ['custom_tool_button'],
-  version = '0.1.1',
+  version = '0.2',
   license='MIT',
   description=long_description,
   long_description=long_description,
