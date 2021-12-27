@@ -25,9 +25,7 @@ class _NavigationToolbar2Qt(_OldToolbarClass):
         _setDevicePixelRatio(pm, _devicePixelRatioF(self))
         if self.palette().color(self.backgroundRole()).value() < 128:
             icon_color = self.palette().color(self.foregroundRole())
-            mask = pm.createMaskFromColor(
-                QtGui.QColor('black'),
-                _enum("QtCore.Qt.MaskMode").MaskOutColor)
+            mask = pm.createMaskFromColor(QtGui.QColor('black'), _enum("QtCore.Qt.MaskMode").MaskOutColor)
             pm.fill(icon_color)
             pm.setMask(mask)
         return QtGui.QIcon(pm)
